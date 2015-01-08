@@ -16,7 +16,7 @@ import java.util.Scanner;
  * @version 1.0.0
  * @Description: TODO
  */
-public class AplusB2 {
+public class AplusB3 {
 
 	/**
 	 * @Description: TODO
@@ -29,7 +29,7 @@ public class AplusB2 {
 	 */
 	public static void main( String [] args ) {
 		Scanner cin = new Scanner(System.in);
-		 while(cin.hasNext()){ 
+		 while(cin.hasNext()){
 			 
 			 String a = cin.next();
 			 long ai = Long.parseLong( a.replaceAll( ",", "") );
