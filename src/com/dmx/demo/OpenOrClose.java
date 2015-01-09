@@ -36,7 +36,7 @@ public class OpenOrClose {
 		SimpleDateFormat formatter = new SimpleDateFormat("hh:mm:ss");
 		Scanner cin = new Scanner(System.in);
 		while(cin.hasNext()){
-			int day = cin.nextInt();
+			int day = cin.nextInt(); 
 			String[] result = new String[day];
 			for ( int i = 0; i < day; i++ ) {
 				String re = "";
